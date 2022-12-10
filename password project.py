@@ -30,7 +30,7 @@ def func():
         if ord(i) in range(33,48) or ord(i) in range(58,65):
             spcl+=1
     if upper!=0 and lower!=0 and digiit!=0 and spcl!=0 and password_len>7:
-        print("GOOD PASSWORD")
+        print("VERY GOOD PASSWORD")
     else:
         func()
 func()
